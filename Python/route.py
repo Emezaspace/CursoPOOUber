@@ -1,7 +1,4 @@
-from msilib.schema import Class
-
-
-Class Route:
+class Route:
     id      = int
-    start   =  []
-    end     =  []
+    start   = []
+    end     = []
